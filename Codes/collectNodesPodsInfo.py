@@ -45,12 +45,3 @@ for i in range(len(split_pods)):
                 if (pod[j] == "Running" or pod[j] == "Completed" or pod[j] == "ErrImagePull" or  pod[j] == "CrashLoopBackOff" or pod[j] == "Terminating"):
                         print (pod[0], " ", pod[j], " ", pod[15])
                         #rank[pod[0]][1] = rank[pod[0]][1] + 1
-
-
-for i in range(len(split_pods)):
-        list0  = split_pods[i].split('\t')
-        pod = str(list0[0]).split(' ')
-        for j in range (len(pod)):
-                if (pod[j] == "Running" or pod[j] == "Completed" or pod[j] == "ErrImagePull" or  pod[j] == "CrashLoopBackOff" or pod[j] == "Terminating"):
-                        print (pod[0], " ", pod[j] , " ", pod[6])
-                        #rank[pod[0]][2] = rank[pod[0]][2] + 1
