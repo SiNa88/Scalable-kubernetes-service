@@ -1,5 +1,4 @@
 # SKS
-SKS
 
 
 This tutorial provides information regarding the SKS service of a cloud provider:
