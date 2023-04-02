@@ -1,4 +1,4 @@
-# SKS
+# Scalable Kubernetes service
 
 
 This tutorial provides information regarding the SKS service of a cloud provider:
